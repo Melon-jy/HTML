@@ -4,7 +4,15 @@
         <head>
             <meta charset="UTF-8">
             <title>Melon's Blog</title>
-            <link rel="stylesheet" href="C:\Users\crazy\git\html\css\common.css">
+            <style type="text/css">
+                .screen_out{ overflow: hidden; position: absolute; width: 0; height: 0; line-height: 0; text-indent: -9999px; margin: 0; padding: 0; }
+                .logo{ overflow: hidden; float: center; width: 180px; height: 150px; text-align: center;}
+                .nav{ overflow: hidden; color: #9fee9f; float: right; padding: 10px 0; margin-right: 5px; font-weight: 700; font-size: 13px; line-height: 25px; background-color: transparent; text-align: center;}
+                .box_side{ overflow: hidden; float: left; width: auto; height: auto; text-align: left;}
+                .box_content{ overflow: hidden; float: left; width: auto; height: auto; text-align: left;}
+                .melon_footer{ overflow: hidden; float: left; width: auto; height: auto; text-align: left;}
+            
+            </style>
         </head>
         <body>
             <div class="melon_wrap">
@@ -33,19 +41,17 @@
                     </div>
                 </header>    
                 <main class="MelonMain">
-                    <section class="heading">
-                        <h3>포트 폴리오용 HTML, CSS 예습</h3>
-                        
-                        <p>책보고 주말동안 예습으로 만드는 사이트 입니다.</p>
-                    </section>
-                    <section class="activity">
-                        <h3>우리집 고양이 이로</h3>
-
-                        <p>나이는 이제 4살이에요.</p>
-                    </section>
+                     <div class="box_side">
+                           <!--css에서 박스 사이드에 디자인 또는 영역을 선언하면 된다-->
+                               <p>여기는 사이드 컨텐츠 자리입니다</p>
+                     </div>
+                     <div class="box_contents">
+                                <!--박스 컨텐츠에 위치와 사이즈 등을 css에서 선언한다-->
+                                여기는 본문 컨텐츠 자리입니다.</p>
+                     </div>
                 </main>
                 <footer>
-                    <div class="Melonfooter">
+                    <div class="Melon_footer">
                         <p>crazygizmowh@nate.com</p>
                         <p>NCP AiaaS bitcamp</p>
                     </div>           
