@@ -1,4 +1,6 @@
-.screen_out {
+@charset "UTF-8";
+
+.screenout {
     overflow: hidden;
     position: absolute;
     width: 0;
