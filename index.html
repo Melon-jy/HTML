@@ -1,42 +1,55 @@
 <!DOCTYPE html>
-<html>
-    <head>
-           <title>Melon's Blog</title>
-           <meta charset="UTF-8">
-    </head>
-    <body>
-        <H1>html만들고 CSS로 꾸미기</H1>
- </body>
-    <div id="container">
-        <header>
-            <nav>
-                <ul>
-                    <li><a href="Profile.HTML">Profile</li>
 
-                    <li><a href="Introduce.html">Introduce</li>
+    <html lang="ko">
+        <head>
+            <title class="screen_out">Melon's Blog</title>
+            <meta charset="UTF-8">
+            <a href="common.css"></a>
+        </head>
+        <body>
+            <div id="Melon_wrap" class="melon_body">
+                <header>
+                    <div class="logo">
+                        <h1>
+                            <a href="링크는 항상 메인으로">
+                                <img class="log" alt="Melon's Blog1">
+                                <!--로고의 링크는 항상 메인주소-->
+                            </a>
+                        </h1>
+                    </div>
+                    <div class="nav">
+                        <h2 class="screen_out">
+                            네비게이션
+                        </h2>
+                        <nav>
+                            <ul>
+                                <li><a href="Profile.HTML">Profile</li>
+
+                                <li><a href="Introduce.html">Introduce</li>
+                                    
+                                <li><a href="Career.html">Career</li>
+                            </ul>                      
+                        </nav>
+                    </div>
+                </header>    
+                <main class="MelonMain">
+                    <section id="heading">
+                        <h3>포트 폴리오용 HTML, CSS 예습</h3>
                         
-                    <li><a href="Career.html">Career</li>
-                </ul>
-            </nav>
-        </header>
-    
+                        <p>책보고 주말동안 예습으로 만드는 사이트 입니다.</p>
+                    </section>
+                    <section id="activity">
+                        <h3>우리집 고양이 이로</h3>
 
-    <main class="contents">
-        <section id="heading">
-            <h2>포트 폴리오용 HTML, CSS 예습</h2>
-            
-            책보고 주말동안 예습으로 만드는 사이트 입니다.
-        </section>
-        <section id="activity">
-            <h2>우리집 고양이 이로</h2>
-
-            나이는 이제 4살이에요.
-        </section>
-    </main>
-    <footer>
-        <section id="bottomMenu">
-            crazygizmowh@nate.com
-        </section>
-    </footer>
-</div>
-</html>
+                        <p>나이는 이제 4살이에요.</p>
+                    </section>
+                </main>
+                <footer>
+                    <div class="Melonfooter">
+                        <p>crazygizmowh@nate.com</p>
+                        <p>NCP AiaaS bitcamp</p>
+                    </div>           
+                </footer>
+            </div>
+        </body>   
+    </html>
