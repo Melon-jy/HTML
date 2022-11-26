@@ -5,12 +5,13 @@
             <meta charset="UTF-8">
             <title>Melon's Blog</title>
             <style type="text/css">
-                 body{ overflow: hidden; text-align:center; font-size: 26px; background-color: #292929; color: #ffffff;}
+                 body{ overflow: scroll; text-align:center; font-size: 26px; background-color: #292929; color: #ffffff;}
                 .screen_out{ overflow: hidden; position: absolute; width: 0; height: 0; line-height: 0; text-indent: -9999px; margin: 0; padding: 0; }
-                .logo{ overflow: hidden; float: left; width: 300px; height: 200px; text-align: left;}
+                .logo{ overflow: hidden; float: center; width: 300px; height: 200px; text-align: center;}
                 .nav{ overflow: hidden; color: #9fee9f; float: right; padding: 10px 0; margin-right: 5px; font-weight: 700; font-size: 24px; line-height: 25px; background-color: transparent; text-align: right;}
-                .box_side{overflow: hidden; color: #9fee9f; text-align: left; font-size: 20px;}
-                footer{overflow: hidden; }
+                .box_side{overflow: hidden; color: #9fee9f; float:left; font-size: 20px; text-align: left;}
+                .box_contents{ overflow: hidden; float:center; text-align: center;}
+                footer{overflow: hidden; float: center; text-align: center; margin-left: 5px; }
             </style>
         </head>
         <body>
@@ -18,7 +19,7 @@
                 <header class="head_melon">
                     <div class="logo">
                         <h1>
-                            <a href="https://melon-jy.github.io/html/">
+                           <p> <a href="https://melon-jy.github.io/html/">
                                 <img src="https://github.com/Melon-jy/html/blob/main/Melon.png?raw=true" class="log" alt="Melon's Blog" width="160">
                                 <!--로고의 링크는 항상 메인주소-->
                             </a>
@@ -30,38 +31,53 @@
                         </h2>
                         <nav>
                             <ul>
-                                <li><a href="Profile.HTML">Profile</a></li>
+                                <li><a href="Profile.HTML" style="color: #9fee9f">Profile</a></li>
 
-                                <li><a href="Introduce.html">Introduce</a></li>
+                                <li><a href="Introduce.html" style="color: #9fee9f">Introduce</a></li>
                                     
-                                <li><a href="Career.html">Career</a></li>
+                                <li><a href="Career.html" style="color: #9fee9f">Career</a></li>
 
-                                <li><a href="post.html">post</a></li>
+                                <li><a href="post.html" style="color: #9fee9f">post</a></li>
                             </ul>                      
-                        </nav>
+                        </nav></p>
                     </div>
                 </header>    
                 <main class="MelonMain">
                     
                      </div>
-                     <div class="box_contents">
-                                <!--박스 컨텐츠에 위치와 사이즈 등을 css에서 선언한다-->
-                                
+                     <div class="box_side">
+                        <!--css에서 박스 사이드에 디자인 또는 영역을 선언하면 된다-->
+                        <p><iframe width="200" height="150" src="https://www.youtube.com/embed/cfagXM9XEeQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe width="200" height="150" src="https://www.youtube.com/embed/dxzvCBrfeqQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+                        <p><iframe width="200" height="150" src="https://www.youtube.com/embed/h_6k3NEO8t4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe width="200" height="150" src="https://www.youtube.com/embed/1URwVz32oXg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+                        <p><a href="https://www.youtube.com/channel/UCDiU10g3Xk0JpP3YF2PYqiw">
+                        <img src="https://github.com/Melon-jy/html/blob/main/sub.png?raw=true" width="100">
+                        </a></p>
+                </div>
 
-                            <p>여기는 본문 컨텐츠 자리입니다.</p>
-                      <div class="box_side">
-                                <!--css에서 박스 사이드에 디자인 또는 영역을 선언하면 된다-->
-                                <iframe width="200" height="150" src="https://www.youtube.com/embed/dxzvCBrfeqQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                <iframe width="200" height="150" src="https://www.youtube.com/embed/h_6k3NEO8t4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                <p><a href="https://www.youtube.com/channel/UCDiU10g3Xk0JpP3YF2PYqiw">
-                                <img src="https://github.com/Melon-jy/html/blob/main/sub.png?raw=true" width="100">
-                                </a></p>
-                     </div>
+                    <div class="box_contents">
+                                <!--박스 컨텐츠에 위치와 사이즈 등을 css에서 선언한다-->
+                                <p><img src="https://github.com/Melon-jy/html/blob/main/iro/KakaoTalk_20221127_010538577.jpg?raw=true" width="440" height="330">
+                                <img src="https://github.com/Melon-jy/html/blob/main/iro/KakaoTalk_20221127_010538577_14.jpg?raw=true" width="440"height="330"></p>
+                                <p><img src="https://github.com/Melon-jy/html/blob/main/iro/KakaoTalk_20221127_010727080_05.jpg?raw=true" width="440"height="330">
+                                <img src="https://github.com/Melon-jy/html/blob/main/iro/KakaoTalk_20221127_010727080_08.jpg?raw=true" width="440"height="330"></p>
+                                <p><img src="https://github.com/Melon-jy/html/blob/main/iro/KakaoTalk_20221127_011355664_06.jpg?raw=true" width="440"height="330">
+                                <img src="https://github.com/Melon-jy/html/blob/main/iro/KakaoTalk_20221127_010922861_17.jpg?raw=true" width="440"height="330"></p>
+                                <p><img src="https://github.com/Melon-jy/html/blob/main/iro/KakaoTalk_20221127_010922861_11.jpg?raw=true" width="440"height="330">
+                                <img src="https://github.com/Melon-jy/html/blob/main/iro/KakaoTalk_20221127_011355664_13.jpg?raw=true" width="440"height="330"></p>
+                                <p><img src="https://github.com/Melon-jy/html/blob/main/iro/KakaoTalk_20221127_010727080_15.jpg?raw=true" width="440"height="330">
+                                <img src="https://github.com/Melon-jy/html/blob/main/iro/KakaoTalk_20221127_010538577_07.jpg?raw=true" width="440"height="330"></p>
+                                <p><img src="https://github.com/Melon-jy/html/blob/main/iro/KakaoTalk_20221127_010727080_17.jpg?raw=true" width="440"height="330">
+                                <img src="https://github.com/Melon-jy/html/blob/main/iro/KakaoTalk_20221127_011355664_11.jpg?raw=true" width="440"height="330"></p>
+                        </div>
+
                 </main>
                 <footer>
                     <div class="Melon_footer">
                         <p>crazygizmowh@nate.com</p>
-                        <p>Copyright © 2022 Melon's develop story</p>
+                        <p>Study Bitcamp In Korea</p>
+                        <p>Copyright © 2022 Melon's Develop Story</p>
                     </div>           
                 </footer>
             </div>
