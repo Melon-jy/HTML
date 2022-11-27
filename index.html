@@ -5,20 +5,21 @@
             <meta charset="UTF-8">
             <title>Melon's Blog</title>
             <style type="text/css">
-                 body{ overflow: scroll; text-align:center; font-size: 26px; background-color: #292929; text:#ffffff}
-                .screen_out{ overflow: hidden; position: absolute; width: 0; height: 0; line-height: 0; text-indent: -9999px; margin: 0; padding: 0; }
-                .logo{ overflow: hidden; float: center; width: 1845px; height: 200px; text-align: center; color: #9fee9f; border-bottom:1px solid #9fee9f;}
+                 html{font-family: 'BinggraeSamanco'; font-style: bold;}
+                 body{ overflow: scroll; text-align:center; font-size: 26px; background-color: #292929;}
+                .screen_out{ overflow: hidden; position: absolute; width: 0; height: 0; line-height: 0; text-indent: -9999px; margin: 0; padding: 0; font-family: 'BinggraeSamanco-Bold'}
+                .logo{ overflow: hidden; float: center; width: 1845px; height: 200px; text-align: center; color: #9fee9f; border:1px solid #9fee9f;}
                 .nav{ overflow: hidden; color: #9fee9f; float: right; padding: 0px 0; margin-right: 0px; font-weight: 100px; font-size: 24px; line-height: 45px; background-color: transparent; text-align: right;border-left: 1px solid #9fee9f; border-bottom: 2px solid #9fee9f;}
-                .box_side{overflow: hidden; color: #9fee9f; float:left; font-size: 20px; text-align: left;border-right:1px solid #9fee9f; height: auto;width: auto;border-bottom: 1px solid #9fee9f;}
+                .box_side{overflow: hidden; color: #9fee9f; float:left; font-size: 20px; text-align: left;border:1px solid #9fee9f; height: auto;width: auto;}
                 .box_contents{ overflow: hidden; float:center; text-align: center; border:1px solid #9fee9f}
                 footer{border-top:1px solid #9fee9f; overflow: hidden; float: center; text-align: center; margin-left: 5px; width: 1845px; height: 170px; line-height: 10px; color: #9fee9f;}
                 .blind{overflow: hidden; position: absolute; top: 0;left: 0; width: 1px; height: 1px;margin: 0px; clip: rect(0, 0, 0, 0);}
                 a{text-decoration:none;}
-                .side_toggle_btn::before{content:"메뉴 열기";color:#ffffff; float: left; background-color: #9fee9f; width: 100px;line-height: 30px;font-size: 20px; ;text-align: center; border: 1px solid #ffffff;}
+                .side_toggle_btn::before{content:"메뉴 열기";color:#ffffff; float: left; background-color: #9fee9f; width: 100px;line-height: auto;font-size: 20px; ;text-align: center; border: 1px solid #ffffff;}
                 .side_input:checked+.side_toggle_btn::before{content: "메뉴 닫기";}
                 .side_input:checked~.side_list{left: 0;}
-                .side_list{position: absolute;left: -200px; top: 50px;bottom: 0; width: 200px; font-size: 24px; transition: 0.3s ease-in; background-color: #292929; border-top: 1px solid #9fee9f;}
-                
+                .side_list{position: absolute;left: -200px; top: 50px;bottom: 0; width: 200px; font-size: 24px; transition: 0.3s ease-in; background-color: #292929; border-top: 1px solid #9fee9f;border-bottom: 1px solid #9fee9f; height: 416px;}
+                .side_border{border: 1px solid #9fee9f;}
             </style>
         </head>
         <body>
@@ -30,6 +31,7 @@
                             <input type="checkbox" id="side_btn" class="side_input blind"/> 
                             <label for="side_btn" class="side_toggle_btn"></label>
                             <div class="side_list">
+                                <div class="side_border">
                                 <li><a href="Profile.html" class="side_link" style="color: #ffffff">Profile</a></li>
                                 --------------------
                                 <li><a href="Introduce.html" class="side_link" style="color: #ffffff">Introduce</a></li>
@@ -43,7 +45,7 @@
                                 <li><a href="#" class="side_link" style="color: #ffffff">들</a></li>
                                 --------------------
                                 <li><a href="#" class="side_link" style="color: #ffffff">기</a></li>
-                                --------------------
+                            </div>
                             </div>
                         </div>
                         <h1>               
