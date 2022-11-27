@@ -5,20 +5,19 @@
             <meta charset="UTF-8">
             <title>Melon's Blog</title>
             <style type="text/css">
-                 body{ overflow: scroll; text-align:center; font-size: 26px; background-color: #292929;text:#ffffff}
+                 body{ overflow: scroll; text-align:center; font-size: 26px; background-color: #292929; text:#ffffff}
                 .screen_out{ overflow: hidden; position: absolute; width: 0; height: 0; line-height: 0; text-indent: -9999px; margin: 0; padding: 0; }
                 .logo{ overflow: hidden; float: center; width: 1845px; height: 200px; text-align: center; color: #9fee9f; border-bottom:1px solid #9fee9f;}
                 .nav{ overflow: hidden; color: #9fee9f; float: right; padding: 0px 0; margin-right: 0px; font-weight: 100px; font-size: 24px; line-height: 45px; background-color: transparent; text-align: right;border-left: 1px solid #9fee9f; border-bottom: 2px solid #9fee9f;}
-                .box_side{overflow: hidden; color: #9fee9f; float:left; font-size: 20px; text-align: left;}
-                .box_contents{ overflow: hidden; float:center; text-align: center;}
+                .box_side{overflow: hidden; color: #9fee9f; float:left; font-size: 20px; text-align: left;border-right:1px solid #9fee9f; height: auto;width: auto;border-bottom: 1px solid #9fee9f;}
+                .box_contents{ overflow: hidden; float:center; text-align: center; border:1px solid #9fee9f}
                 footer{border-top:1px solid #9fee9f; overflow: hidden; float: center; text-align: center; margin-left: 5px; width: 1845px; height: 170px; line-height: 10px; color: #9fee9f;}
                 .blind{overflow: hidden; position: absolute; top: 0;left: 0; width: 1px; height: 1px;margin: 0px; clip: rect(0, 0, 0, 0);}
-                header{ border-bottom: 1px solid #9fee9f;}
                 a{text-decoration:none;}
-                .side_toggle_btn::before{content:"메뉴 열기";color:#ffffff; float: left; background-color: #9fee9f; display: inline-block;width: 100px;line-height: 30px;font-size: 20px; ;text-align: center; border-right: 1px solid #000;}
+                .side_toggle_btn::before{content:"메뉴 열기";color:#ffffff; float: left; background-color: #9fee9f; width: 100px;line-height: 30px;font-size: 20px; ;text-align: center; border: 1px solid #ffffff;}
                 .side_input:checked+.side_toggle_btn::before{content: "메뉴 닫기";}
                 .side_input:checked~.side_list{left: 0;}
-                .side_list{position: absolute;left: -200px; top: 50px;bottom: 0;border-right:1px solid #9fee9f; width: 200px; font-size: 24px; transition: 0.3s ease-in; background-color: #292929; border-top: 1px solid #9fee9f;}
+                .side_list{position: absolute;left: -200px; top: 50px;bottom: 0; width: 200px; font-size: 24px; transition: 0.3s ease-in; background-color: #292929; border-top: 1px solid #9fee9f;}
                 
             </style>
         </head>
@@ -78,10 +77,10 @@
                      </div>
                      <div class="box_side">
                         <!--css에서 박스 사이드에 디자인 또는 영역을 선언하면 된다-->
-                        <p><iframe width="200" height="150" src="https://www.youtube.com/embed/cfagXM9XEeQ" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        <iframe width="200" height="150" src="https://www.youtube.com/embed/dxzvCBrfeqQ" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-                        <p><iframe width="200" height="150" src="https://www.youtube.com/embed/h_6k3NEO8t4" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        <iframe width="200" height="150" src="https://www.youtube.com/embed/1URwVz32oXg" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+                        <p><iframe width="200" height="150" src="https://www.youtube.com/embed/cfagXM9XEeQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe width="200" height="150" src="https://www.youtube.com/embed/dxzvCBrfeqQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+                        <p><iframe width="200" height="150" src="https://www.youtube.com/embed/h_6k3NEO8t4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe width="200" height="150" src="https://www.youtube.com/embed/1URwVz32oXg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
                         <p><a href="https://www.youtube.com/channel/UCDiU10g3Xk0JpP3YF2PYqiw">
                         <img src="https://github.com/Melon-jy/html/blob/main/sub.png?raw=true" width="150">
                         </a></p>
