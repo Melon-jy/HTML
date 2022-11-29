@@ -30,3 +30,6 @@ li:hover{
     text-align: center; 
     color: #9fee9f; 
    }
+.melon_footer{
+    display: inline-block;
+}
