@@ -1,5 +1,4 @@
 body{ overflow: scroll; text-align:center; font-size: 26px; background-color: #292929; color: #9fee9f; font-family:"S-Core Dream 7"; font-style: bold;}
         .box_introduce{ text-align: left; float: center;}
         header{border: 1px solid #9fee9f;} 
-        .logo{ overflow: hidden; float: center; text-align: center; color: #9fee9f;}
-        footer{border-top:1px solid #9fee9f; overflow: hidden; float: center;margin-top: 5px; text-align: center; margin-left: 0px; line-height: 10px; color: #9fee9f;}
+       
