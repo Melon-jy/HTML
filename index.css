@@ -122,3 +122,11 @@
     .side_input:checked~.side_list{
         left: 0;
     }
+    /*자바 연습 + css 적용*/
+    .BGC_Changed{
+        color:#ffffff; 
+        float: left; 
+        font-size: 20px; 
+        text-align: center; 
+        margin:5px;       
+    }
