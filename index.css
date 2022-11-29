@@ -66,9 +66,9 @@
     .box_contents{ 
         overflow: hidden; 
         float:center; 
-        text-align: center;
-        padding: 0px 0;
+        text-align: left;
         border:5px solid #9fee9f;
+        padding: 5px 0;
     }
     .blind{
         overflow: hidden; 
