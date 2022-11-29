@@ -116,7 +116,8 @@
         font-size: 20px; 
         text-align: center; 
         border: 1px solid #292929;
-        margin:5px;
+        margin-left:-15px;
+        margin-top: 8px;
     }
     .side_input:checked+.side_toggle_btn::before{
         content: "SNS";
