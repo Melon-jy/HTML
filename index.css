@@ -67,6 +67,8 @@
         overflow: hidden; 
         float:center; 
         text-align: center;
+        padding:5px 0;
+        border:5px solid #9fee9f;
     }
     .blind{
         overflow: hidden; 
@@ -83,6 +85,7 @@
         top: 50px;
         bottom: 0; 
         width: 200px; 
+        height: 600px;
         font-size: 24px; 
         transition: 0.3s ease-in; 
         background-color: #292929;
