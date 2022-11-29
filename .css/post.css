@@ -1,0 +1,6 @@
+body{ overflow: scroll; text-align:center; font-size: 26px; background-color: #292929; color: #ffffff; font-family:"S-core Dream 7"; font-style: bold;}
+a{text-decoration:none;}
+footer{border-top:1px solid #9fee9f; overflow: hidden; float: center;margin-top: 5px; text-align: center; margin-left: 0px; line-height: 10px; color: #9fee9f;}
+li:hover{text-decoration: underline;}
+.nav{ overflow: hidden; color: #9fee9f; float: center; padding: 0px 0; margin-right: 0px; font-weight: 200px; font-size: 24px; line-height: 45px; background-color: transparent; text-align: left;border: 1px solid #9fee9f;}
+.logo{ overflow: hidden; float: center; text-align: center; color: #9fee9f; border:1px solid #9fee9f;}
