@@ -17,6 +17,7 @@ footer{
     margin-left: 0px; 
     line-height: 10px; 
     color: #9fee9f;
+    display: inline;
 }
 a{
     text-decoration:none;
