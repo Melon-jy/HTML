@@ -97,7 +97,7 @@
     }
     .side_link{
         float: center;
-        text-align: left;
+        text-align: center;
         font-size: 26px;
     }
     .side_toggle_btn::before{
