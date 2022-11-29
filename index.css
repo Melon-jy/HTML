@@ -17,6 +17,7 @@
         margin-left: 0px; 
         line-height: 10px; 
         color: #9fee9f;
+        display: block;
     }
     a{
         text-decoration:none;
