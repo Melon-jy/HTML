@@ -71,6 +71,7 @@
         border:5px solid #9fee9f;
         color: #9fee9f;
         padding: 5px 0;
+        margin:-5px;
     }
     .blind{
         overflow: hidden; 
