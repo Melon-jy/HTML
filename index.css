@@ -80,17 +80,22 @@
     .side_list{
         position: absolute;
         left: -200px; 
-        top: 50px;bottom: 0; 
+        top: 50px;
+        bottom: 0; 
         width: 200px; 
         font-size: 24px; 
         transition: 0.3s ease-in; 
-        background-color: #292929; 
-        border-top: 1px solid #9fee9f;
-        border-bottom: 1px solid #9fee9f; 
-        height: 430px;
+        background-color: #292929;
+        border-left: 1px solid #9fee9f;
     }
     .side_border{
-        border: 1px solid #9fee9f;
+        border: 2px solid #9fee9f;
+        margin-right: 2px;
+    }
+    .side_link{
+        float: center;
+        text-align: left;
+        font-size: 26px;
     }
     .side_toggle_btn::before{
         content:"메뉴 열기";
