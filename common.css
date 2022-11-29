@@ -1,12 +1,12 @@
 *{
     font-family:"S-Core Dream 4", "궁서체", "monaco", "consolas", "sans-serif", "serif", "AppleMyungjo", "default";  
     font-style: bold;
-    background-color: #292929;
 }
 body{ 
     overflow: scroll; 
     text-align:center; 
     font-size: 26px; 
+    background-color: #292929;
     color: #9fee9f;
 }
 footer{
