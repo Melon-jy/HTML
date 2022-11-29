@@ -1,2 +1,10 @@
-body{ overflow: scroll; text-align:center; font-size: 26px; background-color: #292929; color: #9fee9f; font-family:"S-Core Dream 7"; font-style: bold;}
-            .box_profile{ text-align: left; float: center;}
+.box_profile{ 
+    text-align: left; 
+    float: center;
+    padding-left: 670;
+}
+.profile_img{
+    margin-top: 20px;
+    border: groove 5px #9fee9f;
+}
+

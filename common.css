@@ -1,5 +1,5 @@
 *{
-    font-family:"S-Core Dream 7", "궁서체", "monaco", "consolas", "sans-serif", "serif", "AppleMyungjo", "default";  
+    font-family:"S-Core Dream 4", "궁서체", "monaco", "consolas", "sans-serif", "serif", "AppleMyungjo", "default";  
     font-style: bold;
 }
 body{ 
@@ -7,9 +7,11 @@ body{
     text-align:center; 
     font-size: 26px; 
     background-color: #292929;
+    color: #9fee9f;
 }
 footer{
-    border-top: 5px solid #9fee9f; 
+    font-family:"S-Core Dream 1";
+    border-top: 2px solid #9fee9f; 
     overflow: hidden; 
     float: center;
     margin-top: 5px; 
@@ -17,6 +19,7 @@ footer{
     margin-left: 0px; 
     line-height: 10px; 
     color: #9fee9f;
+    font-size: 3px;
 }
 a{
     text-decoration: none;
@@ -25,7 +28,7 @@ li:hover{
     text-decoration: underline;
 }
 .logo{
-    border:10px solid #9fee9f;
+    border:5px solid #9fee9f;
     overflow: hidden; 
     float: center; 
     text-align: center; 
