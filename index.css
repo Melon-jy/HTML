@@ -89,15 +89,17 @@
         top: 50px;
         bottom: 0; 
         width: 200px; 
-        height: 489px;
+        height: 559px;
         font-size: 24px; 
         transition: 0.3s ease-in; 
         background-color: #292929;
         border-left: 1px solid #9fee9f;
+
     }
     .side_border{
         border: 2px solid #9fee9f;
-        margin-right: 2px;
+        margin-right: 1px;
+        padding-right: 0px;
     }
     .side_link{
         float: center;
@@ -105,7 +107,7 @@
         font-size: 26px;
     }
     .side_toggle_btn::before{
-        content:"메뉴 열기";
+        content:"SNS";
         color:#9fee9f; 
         float: left; 
         background-color: #292929; 
@@ -117,7 +119,7 @@
         margin:5px;
     }
     .side_input:checked+.side_toggle_btn::before{
-        content: "메뉴 닫기";
+        content: "SNS";
     }
     .side_input:checked~.side_list{
         left: 0;
