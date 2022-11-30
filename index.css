@@ -62,7 +62,6 @@
     .box_contents{ 
         overflow: hidden;
         display: block;
-        float: center;
         text-align: center;
         font-size: 20px;
         border-left: 1px dashed #9fee9f;
