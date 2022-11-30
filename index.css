@@ -68,7 +68,8 @@
         border-right: 2px solid #9fee9f;
         color: #9fee9f;
         padding: 5px 0;
-        min-width: 300px;
+        min-width: 350px;
+        position: relative;
     }
     .blind{
         overflow: hidden; 
