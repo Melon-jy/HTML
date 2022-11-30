@@ -41,13 +41,12 @@
     .nav{ 
         overflow: hidden; 
         color: #9fee9f; 
-        float: right; 
-        margin-right: 0px; 
-        font-weight: 26px; 
+        float: right;
+        margin-right: 0px;  
         font-size: 24px; 
         line-height: 50px; 
         text-align: left;
-        padding: 20px;
+        padding-right: 80px;
     }
     .box_side{
         overflow: hidden; 
@@ -57,19 +56,17 @@
         font-size: 20px; 
         text-align: center;
         padding: 20px 30px;
+        width: 41%;
     }
     .box_contents{ 
         overflow: hidden;
-        display: block;
         text-align: center;
         font-size: 20px;
         border-left: 1px dashed #9fee9f;
         border-right: 2px solid #9fee9f;
         color: #9fee9f;
         padding: 20px 30px;
-        min-width: 350px;
-        position: relative;
-        
+        width: 41%;
     }
     .blind{
         overflow: hidden; 
@@ -91,7 +88,6 @@
         transition: 0.3s ease-in; 
         background-color: #292929;
         border-left: 1px solid #9fee9f;
-
     }
     .side_border{
         border: 2px solid #9fee9f;
@@ -129,4 +125,9 @@
         font-size: 20px; 
         text-align: center; 
         margin:5px;
+    }
+    #big{
+        position: relative;
+        width: 720;
+        margin: auto;
     }
