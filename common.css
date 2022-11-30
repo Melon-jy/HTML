@@ -8,13 +8,15 @@ body{
     font-size: 26px; 
     background-color: #292929;
     color: #9fee9f;
+    margin: 0;
+    padding: 0;
 }
 footer{
     font-family:"S-Core Dream 1";
     border-top: 2px solid #9fee9f; 
     overflow: hidden; 
     margin-top: 5px; 
-    text-align: left; 
+    text-align: center; 
     margin-left: 0px; 
     line-height: 10px; 
     color: #9fee9f;
