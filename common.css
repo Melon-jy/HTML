@@ -28,11 +28,12 @@ li:hover{
     text-decoration: underline;
 }
 .logo{
-    border:5px solid #9fee9f;
+    border-top:5px solid #9fee9f;
+    border-bottom:5px solid #9fee9f;
     overflow: hidden; 
     float: center; 
     text-align: center; 
-    color: #9fee9f; 
+    color: #9fee9f; ; 
    }
 .melon_footer{
     display: inline-block;
