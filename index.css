@@ -58,13 +58,12 @@
         font-size: 20px; 
         text-align: center;
         padding: 5px 60px;
-        box-sizing: content-box;
     }
     .box_contents{ 
         overflow: hidden;
         display: block;
+        float: center;
         text-align: center;
-        box-sizing: content-box;
         font-size: 20px;
         border-left: 1px dashed #9fee9f;
         border-right: 2px solid #9fee9f;
