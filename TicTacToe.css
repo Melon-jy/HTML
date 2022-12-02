@@ -1,0 +1,54 @@
+.tictactoe_game{
+    max-width: 600px;   
+    margin: 0 auto;
+    background: #292929;
+    box-sizing: border-box;
+}
+.container {
+    min-height: 500px;
+    margin: 50px; 
+    background-color: #292929;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game {
+    
+    text-align: center;
+    margin: 50px;
+    color: #9fee9f;
+}
+.tictactoe {
+    margin: 50px;
+}
+.node{
+    border: 1px solid #9fee9f;
+    background-color: #292929(222, 184, 135, 0.25);
+    border-radius: 10px;
+    border:1px solid #9fee9f(187, 177, 177);
+    min-width: 100px; /* 정사각형 유지 */
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+    color: #292929;
+    cursor: pointer;
+}
+.show{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+    width: 300px;
+    height: 80px;
+    font-size: 30px;
+    color: #000;
+}
+#play {
+    font-size: 17px;
+    width: 150px; height: 40px;
+    border-radius: 1rem;
+    background-color:rgba(121, 104, 104, 0.7);
+    color: #9fee9f;
+    cursor: pointer;
+}
