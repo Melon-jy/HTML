@@ -6,6 +6,23 @@
         <div class="melon_wrap">
           <header class="head_melon">
               <div class="logo">
+                <div class="BGC_Changed">
+                  <input type="button" style="background-color: #292929; font-size: 19px; border: 1px solid #292929; color:#9fee9f;"  value="night" onclick="
+                  document.querySelector('body').style.backgroundColor='black';
+                  document.querySelector('body').style.color='white';
+                  document.onclick=alert('배경 화면 색상을 야간 모드로 변경합니다');
+                  ">
+                  <input type="button" style="background-color: #292929; font-size: 19px; border: 1px solid #292929; color:#9fee9f;"  value="day" onclick="
+                  document.querySelector('body').style.backgroundColor='white';
+                  document.querySelector('body').style.color='black';
+                  document.onclick=alert('배경 화면 색상을 아침 모드로 변경합니다');
+                  ">
+                  <input style="background-color: #292929; font-size: 19px; border: 1px solid #292929; color:#9fee9f;"  type="button" value="defualt" onclick="
+                  document.querySelector('body').style.backgroundColor='#292929';
+                  document.querySelector('body').style.color='#9fee9f';
+                  document.onclick=alert('배경 화면 색상을 기본 값으로 변경합니다');
+                  ">
+              </div>
                   <h1>
                     <p>Melon's Develop Story 
                       <a href="https://melon-jy.github.io/html/">

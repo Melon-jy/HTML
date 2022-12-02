@@ -39,3 +39,10 @@ li:hover{
 .melon_footer{
     display: inline-block;
 }
+.BGC_Changed{
+    color:#ffffff; 
+    float: right; 
+    font-size: 20px; 
+    text-align: center; 
+    margin:5px;
+}
