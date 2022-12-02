@@ -46,3 +46,10 @@ li:hover{
     text-align: right; 
     margin:5px;
 }
+.li_div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
