@@ -24,9 +24,9 @@
 }
 .node{
     border: 1px solid #9fee9f;
-    background-color: #292929(222, 184, 135, 0.25);
+    background-color: #292929;
     border-radius: 10px;
-    border:1px solid #9fee9f(187, 177, 177);
+    border:1px solid #9fee9f;
     min-width: 100px; /* 정사각형 유지 */
     height: 100px;
     text-align: center;
@@ -42,13 +42,13 @@
     width: 300px;
     height: 80px;
     font-size: 30px;
-    color: #000;
+    color: #292929;
 }
 #play {
     font-size: 17px;
     width: 150px; height: 40px;
     border-radius: 1rem;
-    background-color:rgba(121, 104, 104, 0.7);
+    background-color: #292929;
     color: #9fee9f;
     cursor: pointer;
 }
