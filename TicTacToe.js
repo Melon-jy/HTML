@@ -67,7 +67,7 @@ function win_show(){ //승부가 났을경우
         show.classList.add('show');
         tictactoeDiv.appendChild(show);
         if(turn != 0){
-            show.style.backgroundColor = "(159, 238, 159)";
+            show.style.backgroundColor = "(#9fee9f)";
             show.textContent = "∙ 무 승 부 ∙";
         }else{
             show.style.backgroundColor = color;
