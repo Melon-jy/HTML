@@ -25,7 +25,7 @@ var nodeEvent = function(e) { /* 여기서 target 은 node 이다. */
         turn++;
         if(turn > (size*2)-2){ 
             /* 여기서 2 는 플레이어의 숫자
-            size 에 어떤수를 입력하더라도 동일한 결과가 나오게 작성해보았다. */ 
+            size 에 어떤수를 입력하더라도 동일한 결과가 나오게 작성함. */ 
             
             win_check(target.textContent); 
         } 
@@ -34,7 +34,7 @@ var nodeEvent = function(e) { /* 여기서 target 은 node 이다. */
 function win_check(check){
     var left = 0; var right = 0;
     for(var i=0; i<size; i++){
-       var y=0; var x=0; //리셋해준다.
+       var y=0; var x=0; //리셋해줌
         for(var j=0; j<size; j++){
             text = nodeList[i][j].textContent; //가로를 체크하는 변수
             text2 = nodeList[j][i].textContent; //세로를 체크하는 변수
