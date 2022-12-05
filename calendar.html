@@ -1,6 +1,6 @@
 <title>calendar</title>
   <link rel="stylesheet" href="common.css">
-
+  <link rel="stylesheet" href="calendar.css">
 <body>
   <div class="melon_wrap">
       <header class="head_melon">
@@ -31,13 +31,29 @@
               </h1>
           </header>
           <h2>Calender</h2>
-          <div class="calendar">
-            <script src="calendar.js"></script>
-            
-제작중
-
-
+          <div class="calender">
+            <div class="header">
+              <button class="prevBtn" onclick="prevCal()">prev</button>
+              <div class="title">
+                <div class="yearTitle"></div>
+                <div class="monthTitle"></div>
+              </div>
+              <button class="nextBtn" onclick="nextCal()">next</button>
+            </div>
+            <div class="main">
+              <div class="daies">
+                <div class="day">Sun</div>
+                <div class="day">Mon</div>
+                <div class="day">Tue</div>
+                <div class="day">Wed</div>
+                <div class="day">Thu</div>
+                <div class="day">Fri</div>
+                <div class="day">Sat</div>
+              </div>
+              <div class="dates"></div>
+            </div>
           </div>
+            <script src="calendar.js"></script>          
       <footer>
           <div class="Melon_footer">
               <p>crazygizmowh@nate.com</p>

@@ -1,31 +1,44 @@
-var date = new Date();
+let CDate = new Date();
+let today = new Date();
 
-// 달력 연도
-var calendarYear = date.getFullYear();
-// 달력 월
-var calendarMonth = date.getMonth() + 1;
-// 달력 일
-var calendarToday = date.getDate();
+buildCalender();
 
-var monthLastDate = new Date(calendarYear, calendarMonth, 0);
-//달력 월의 마지막 일
-var calendarMonthLastDate = monthLastDate.getDate();
-
-var monthStartDay = new Date(calendarYear, date.getMonth(), 1);
-// 달력 월의 시작 요일
-var calendarMonthStartDay = monthStartDay.getDay();
-
-// 주카운트
-var calendarWeekCount = Math.ceil((calendarMonthStartDay + calendarMonthLastDate) / 7);
-
-var html = "";
-    html +="<table style=\"border-collapse: collapse;\">";
-    for (var index1 = 0; index1 < calendarWeekCount; index1++) {
-        html += "<tr>";
-        for (var index2 = 0; index2 < 7; index2++){
-            html +="<td style=\"border: solid 1px #9fee9f; padding:20px 20px;\"></td>";
+function buildCalender(){
+    let prevLast = new Date(CDate.getFullYear(), CDate.getMonth(), 0);
+    let thisFirst = new Date(CDate.getFullYear(), CDate.getMonth(), 1);
+    let thisLast = new Date(CDate.getFullYear(), CDate.getMonth() + 1, 0);
+    document.querySelector(".yearTitle").innerHTML = CDate.getFullYear();
+    document.querySelector(".monthTitle").innerHTML = CDate.getMonth() + 1;
+    let dates = [];
+    if(thisFirst.getDay()!=0){
+        for(let i = 0; i < thisFirst.getDay(); i++){
+            dates.unshift(prevLast.getDate()-i);
         }
-        html += "</tr>";
+    }
+    for(let i = 1; i <= thisLast.getDate(); i++){
+        dates.push(i);
+    }
+    for(let i = 1; i <= 13 - thisLast.getDay(); i++){
+        dates.push(i);
+    }
+    let htmlDates = '';
+    for(let i = 0; i < 42; i++){
+        if(today.getDate()==dates[i] && today.getMonth()==CDate.getMonth() && today.getFullYear()==CDate.getFullYear()){
+            htmlDates += `<div class="date today">${dates[i]}</div>`;
+        }
+        else{
+            htmlDates += `<div class="date">${dates[i]}</div>`;
+        }
+    }
+    document.querySelector(".dates").innerHTML = htmlDates;
 }
-html += "</table>";
-$("#calendar").html(html);
+
+function prevCal(){
+    CDate.setMonth(CDate.getMonth()-1);
+    buildCalender();
+}
+
+function nextCal(){
+    CDate.setMonth(CDate.getMonth()+1);
+    buildCalender();
+}
