@@ -1,6 +1,6 @@
 :root {
     --bg-color: #292929;/*배경색*/
-    --line-color: #aaaaaa;/*상단과 하단을 나눠줄 줄 색*/
+    --line-color: #9fee9f;/*상단과 하단을 나눠줄 줄 색*/
     --sat-color: #FFE2E2;/*토요일 배경색*/
     --sun-color: #FFC7C7;/*일요일 배경색*/
     --today-color: #9fee9f;/*오늘 날짜의 테투리색*/
@@ -21,7 +21,7 @@ button {
   */
     font-family: var(--font);
     border:none;
-    height: 32px;;
+    height: 50px;;
 }
 
 .header {
@@ -46,18 +46,19 @@ button {
       /*요일과 날짜는 가로가아니라 세로로 정렬되야 하므로 flex-diretion: column;을 해줍시다.*/
     display: flex;
     flex-direction: column;
+    align-items: center;
     margin: 12px 24px 0px 24px;
 }
 .daies {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    width: 50%;
 }
 .dates {
       /*wrap을 주어서 한줄에 날짜가 7개만 나오게 만들겁니다.*/
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    width: 50%;
 }
 .date, .day{
       /*width가 100/7을 가지기 때문에 한 줄에 7개의 날짜와 요일이 정렬됩니다.*/

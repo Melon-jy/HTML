@@ -22,7 +22,7 @@ function buildCalender(){
         dates.push(i);
     }
     let htmlDates = '';
-    for(let i = 0; i < 42; i++){
+    for(let i = 0; i < 35; i++){
         if(today.getDate()==dates[i] && today.getMonth()==CDate.getMonth() && today.getFullYear()==CDate.getFullYear()){
             htmlDates += `<div class="date today">${dates[i]}</div>`;
         }
