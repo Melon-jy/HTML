@@ -20,8 +20,8 @@ button {
       테두리선을 없애고 적당히 높이를 지정해줍시다.
   */
     font-family: var(--font);
-    border:none;
-    height: 50px;;
+    border:1px solid #9fee9f;
+    height: 35px;
 }
 
 .header {
